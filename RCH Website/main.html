@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maternine Home</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class = "body">
+        <div class="top">
+        <div class="header">
+        <h2> <img src="LogoM.jpg" alt="Maternine Logo" width="200" style="border-radius:10%;">
+            <ul class = "nav">
+                <div class = "topbuttons"style="text-align:right;">
+                <a class="hyperlink" href="main.html">Home</a> |
+                <a class="hyperlink" href="about.html">About us</a> |
+                <a class="hyperlink" href="resources.html">Resources</a> |
+                <a class="hyperlink" href="#BabyCare">BabyCare</a> |
+                <a class="hyperlink" href="#Parenting">Parenting</a> |
+                </div>
+            </ul>
+        </h2>
+        </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="main">
+            <br>
+            <div class="carousel-container">
+                <div class="button left" onclick="moveSlide(-1)">&#10094</div>
+                <div class="button right" onclick="moveSlide(1)">&#10095</div>
+
+                <div class="carousel-track" id="carouselTrack">
+                    <!--Add the images and input the code here:-->
+                    <div class="carousel-slide"><img src="ParentImgOne.jpg" alt="Happy parent" onerror="imgError(event)"></div>
+                    <div class="carousel-slide"><img src="ParentImgTwo.jpg" alt="Joyful parent" onerror="imgError(event)"></div>
+                    <div class="carousel-slide"><img src="ParentImgThr.jpg" alt="Glad child" onerror="imgError(event)"></div>
+                </div>
+            </div>
+            <div style="background-color:#205e94">
+            <h3 style="color:white"><br>New Articles</h3>
+            <section class="article-section">
+                <a href="https://newsinhealth.nih.gov/2017/09/positive-parenting" class="card-link" target="_blank">           
+                    <div class="article-card">
+                        <img src="NewArticles.jpg" alt="Parent holding baby" class="article-image" onerror="imgError(event)">
+
+                        <div class="article-conent">
+                            <h2 class="article-title">
+                                News in Health
+                            </h2>
+                            <!--Article summary-->
+                            <p class="article-summary">
+                                This article is about the importance of sensitive and responsive parenting<br>
+                                in building strong relationships between parents and children.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+            <section class="article-section" >
+                <a href="https://www.loveandlogic.com/pages/tips-for-dealing-with-defiant-children-infographic" class="card-link" target="_blank">
+                    <div class="article-card">
+                    <img src="Pimgfo.jpg" alt="Family Picture" class="article-image" onerror="imgError(event)">
+                        <div class="article-conent">
+                            <h2 class="article-title">
+                                Dealing with Defiant Kids
+                            </h2>
+                            
+                            <p class="article-summary">
+                                This article is for parents struggling with kids that are defiant.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+            <h3 style="color:white" id="BabyCare">Babycare</h3>
+            <!--Adds a section to display articles-->
+            <section class="article-section">
+                <a href="https://www.happiestbaby.com/blogs/baby/the-5-s-s-for-soothing-babies?srsltid=AfmBOoo8Z3y3VUljCc0IRakrJ51SboGOu6XpdqmV7pz5PkSbbv3-5-9n" class="card-link" target="_blank">
+                    <div class="article-card">
+                    <img src="FiveS.jpg" alt="Parent holding baby" class="article-image" onerror="imgError(event)">
+                        <div class="article-conent">
+                            <h2 class="article-title">
+                                The 5 S's for Soothing Babies
+                            </h2>
+                            <!--Article summary-->
+                            <p class="article-summary">
+                                Here are some ways to help soothe crying babies. The Five S's:
+                                <ul>
+                                    <li> Swaddling</li>
+                                    <li> Side or Stomach Position </li>
+                                    <li> Shushing </li>
+                                    <li> Swinging </li>
+                                    <li> Sucking </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+            <section class="article-section" >
+                <a href="https://www.healthychildren.org/English/ages-stages/baby/Pages/The-Secret-to-a-Smarter-Baby.aspx" class="card-link" target="_blank">
+                    <div class="article-card">
+                    <img src="Pimgth.jpg" alt="happy family" class="article-image" onerror="imgError(event)">
+                        <div class="article-conent">
+                            <h2 class="article-title">
+                                Healthy Children
+                            </h2>
+                            
+                            <p class="article-summary">
+                                This website gives a lot of information and resources to help parents gauge their child's physical and mental development.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+            <h3 id="Parenting" style="color:white;">Parenting</h3>
+            <section class="article-section" >
+                <a href="https://www.psychologytoday.com/us/basics/parenting" class="card-link" target="_blank">
+                    <div class="article-card">
+                    <img src="Pimgtw.jpg" alt="Parent holding baby" class="article-image" onerror="imgError(event)">
+                        <div class="article-conent">
+                            <h2 class="article-title">
+                                Good Parenting
+                            </h2>
+                            
+                            <p class="article-summary">
+                                This article mentions several skills needed for good parenting, like maintaining health and safety.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+            <section class="article-section" >
+                <a href="https://health.ucdavis.edu/children/patient-education/Positive-Parenting" class="card-link" target="_blank">
+                    <div class="article-card">
+                    <img src="Pimgon.jpg" alt="Parent holding baby" class="article-image" onerror="imgError(event)">
+                        <div class="article-conent">
+                            <h2 class="article-title">
+                                Power of Postive Parenting
+                            </h2>
+                            
+                            <p class="article-summary">
+                                This article talks about the influence of positive parenting in child development.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </section>
+
+
+            
+        </div>
+        </div>
+        <!--Footer tag, which is at the bottom of webpage-->
+        <footer style="background-color:#205e94">
+            <!--This is the table with contact information-->
+            <table class="infotable">
+                <!--Table header row with titles-->
+                <tr>
+                    <th>Name:</th>
+                    <th>Email:</th>
+                    <th>Phone number:</th>
+                    <th>Contact us:</th>
+                </tr>
+                <!--Table row with a person's information-->
+                <tr>
+                    <td>Veral Giriraju</td>
+                    <td>About@example.com</td>
+                    <td>000-000-0000</td>
+                    <td>Ourcontact@gmail.com</td>
+                </tr>
+                <!--Table row with a person's information-->
+                <tr>
+                    <td>Gautam Lakshmanarajan</td>
+                    <td>About@example.com</td>
+                    <td>000-000-0000</td>
+                </tr>
+                <!--Table row with a person's information-->
+                <tr>
+                    <td>Rohan Meduri</td>
+                    <td>About@example.com</td>
+                    <td>000-000-0000</td>
+                </tr>
+            </table>
+        </footer>
+        <script src="code.js"></script>
+    </body>
+</html>
+
+
+
